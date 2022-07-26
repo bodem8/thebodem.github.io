@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>official legit website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/go_ninja_go_ninja_go.gif" type="image/x-icon">
+</head>
+<body onload="showImage()">
+    <audio autoplay loop id="bg" src="Magnetic Tape.mp3"></audio>
+    <div>
+        <h1>The Bodem</h1>
+        <h2>Welcome and Goodbye</h2>
+        <canvas width="300" height="150"></canvas>
+        <br>
+        <a href="skeletonz.html">cool skeleton pics</a>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        var audio = document.getElementById("bg");
+        audio.volume = 0.2;
+    </script>
+    <script>
+       const pics = [
+        'url("img/alwayzin2somethin.jpg")',
+        'url("img/haru.jpg")',
+        'url(img/cat.jpg)',
+        'url(img/cock.jpg)',
+        'url(img/brodead.jpg)',
+        'url(img/duston.jpg)',
+        'url(img/duston2.jpg)',
+        'url(img/gainz.jpg)',
+        'url(img/nerd.jpg)',
+        'url(img/roboky.jpg)',
+        'url(img/walterblack.jpg)',
+        'url(img/3ds.jpg)',
+        'url(img/basement.jpg)',
+        'url(img/bros.jpg)',
+        'url(img/dripvader.jpg)',
+        'url(img/fridgecat.jpg)',
+        'url(img/gamemouse.jpg)',
+        'url(img/html.jpg)',
+        'url(img/mikusonic.jpg)',
+        'url(img/misetanibox.jpg)',
+        'url(img/nokompooter.jpg)',
+        'url(img/planktontweakin.jpg)',
+        'url(img/reaction.jpg)',
+        'url(img/WUT.jpg)',
+       ];
+       const pic = document.querySelector('canvas')
+        function showImage(){
+            var a = Math.floor(Math.random() * pics.length);
+            var img = pics[a];
+            pic.style.backgroundImage = img;
+        }
+    </script>
+    
+</body>
+</html>

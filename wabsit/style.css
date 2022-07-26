@@ -1,0 +1,36 @@
+body{
+    color: rgb(224, 218, 135);
+    background-color: rgb(20, 10, 44);
+    text-align: center;
+}
+h1{
+    font-family: germanika;
+    font-size: 80px;
+    margin: 0px;
+}
+h2{
+    font-family: germanika;
+    margin: 0px;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+a{
+    font-weight: bold;
+    color: rgb(121, 45, 45);
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    background-color: rgb(14, 0, 90);
+    margin-left:30%;
+    margin-right: 30%;
+    display: block;
+}
+@font-face {
+    font-family: germanika;
+    src: url(Germanika.ttf);
+}
