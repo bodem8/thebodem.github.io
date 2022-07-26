@@ -3,6 +3,11 @@ body{
     background-color: rgb(20, 10, 44);
     text-align: center;
 }
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
 h1{
     font-family: germanika;
     font-size: 80px;
@@ -13,6 +18,10 @@ h2{
     margin: 0px;
     font-size:40px;
     margin-bottom: 20px;
+}
+h6{
+    margin: 0;
+    color: blue;
 }
 a{
     font-weight: bold;
