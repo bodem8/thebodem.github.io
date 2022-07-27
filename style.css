@@ -43,3 +43,29 @@ div{
     font-family: germanika;
     src: url(Germanika.ttf);
 }
+@media(max-width:800px){ /*small screen idk who has a screen width of 800*/
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size:28px;
+    }
+    div{
+        background-color: rgb(14, 0, 90) ;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media(max-width:500px){ /*iphone and android*/
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size:20px;
+    }
+    div{
+        background-color: rgb(14, 0, 90) ;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
