@@ -44,10 +44,11 @@ overwrite{
     top: 1vw;
     left: 1vw;
     display:block;
-    background-color: rgb(25, 0, 255);
+    background-color: rgb(14, 0, 90);
     border-radius: 5px;
     margin: auto;
     width: 15vw;
+    padding-right: 3vw;
     border-style: dotted;
     text-align: center;
 }
