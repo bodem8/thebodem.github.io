@@ -52,6 +52,10 @@ overwrite{
     border-style: dotted;
     text-align: center;
 }
+.prop{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
 @font-face {
     font-family: germanika;
     src: url(Germanika.ttf);
