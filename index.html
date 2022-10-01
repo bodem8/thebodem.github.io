@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/go_ninja_go_ninja_go.gif" type="image/x-icon">
 </head>
-<body onload="showImage()">
+<body onload="showImage(), Teckst()">
     <audio autoplay loop id="bg" src="Magnetic Tape.mp3"></audio>
     <div>
         <h1>The Bodem</h1>
         <h2>Welcome and Goodbye</h2>
-        <p>We have returned to claim the pyramids</p>
+        <p id='randomtxt'>if you see this javascript is disabled on this site</p>
         <canvas width="300" height="150"></canvas>
         <h6>refresh the page or click <a href="index.html">here</a> for a new random banner image</h6>
         <overwrite>
@@ -35,14 +35,23 @@
         <br><br>
         <a href="skeletonz.html">cool skeleton pics</a>
         <br><br>
+        <a href="drhdr.html">click here for the best manga in history</a>
+        <br><br>
     </div>
     <br>
-    <div class="prop">
-        <a href="drhdr.html"><img src="img/coolimagesdrhdr/dtitle.png" alt="DOROHEDORO">click here for the best manga in history</a>
-        <br>
-        <br>
-        <a href="propagandaposters.html"> <img src="img/propaganda/th-1366110958.jpg" alt="mao">!!!合法的 Click [HERE] to see propaganda posters from different countries 合法的!!!</a>
-    </div>
+    <script>
+        var W = [
+                "We have returned to claim the pyramids",
+                "Gettin' down in 3-D","Would you trade your funk for what's behind the third door?",
+                "A-waitin' for the bomb",
+                "When day came they wasn't slowing",
+                "triple A machinery",
+                "We need to raise Atlantis from the bottom of the sea",
+                "The kingdom of heaven is within",
+            ];
+            var greeting_id = Math.floor(Math.random() * W.length);
+            document.getElementById('randomtxt').innerHTML = W[greeting_id];
+    </script>
     <script>
         var audio = document.getElementById("bg");
         audio.volume = 0.2;
@@ -79,9 +88,9 @@
             var a = Math.floor(Math.random() * pics.length);
             var img = pics[a];
             pic.style.backgroundImage = img;
+            window.onload = Teckst();
         }
     </script>
-    
 </body>
 <footer>
     <a href="https://twitter.com/Bode801"><h6>twitter</h6></a>
