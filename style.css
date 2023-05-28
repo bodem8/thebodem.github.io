@@ -28,6 +28,9 @@ a{
     color: rgb(121, 45, 45);
     text-decoration: none;
 }
+a:hover{
+    background-color: blue;
+}
 img{
     display: block;
     margin-left: auto;
@@ -52,19 +55,10 @@ overwrite{
     border-style: dotted;
     text-align: center;
 }
-overwriteimg{
-    position: absolute;
-    top: 1vw;
-    left: 0vw;
-    display:block;
-    margin: auto;
-    width: 15vw;
-    padding-right: 3vw;
-    text-align: center;
+.flags{
+    width: 50px;
 }
-poverwrite{
-    filter: opacity(0);
-}
+
 .propaimage{
     width: 25vw;
     height: 200vh;
@@ -73,6 +67,18 @@ poverwrite{
 .prop{
     padding-top: 1vw;
     padding-bottom: 1vw;
+}
+
+.images{ /*images next to eachother*/
+    display: flex;
+    padding: 1%;
+    margin: 0;
+    margin: auto;
+    width: 50%;
+}
+.column{
+    padding: 0;
+    margin: 0;
 }
 @font-face {
     font-family: germanika;
